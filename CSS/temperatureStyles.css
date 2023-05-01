@@ -1,0 +1,36 @@
+body{
+    background-color: #9388A2;
+}
+
+H1{
+    text-align: center;
+}
+
+/* Styles for the nav */
+li {
+    display: inline;
+    padding: 25px;
+  }
+
+  li a{
+    text-decoration: none; /* Remove bullets */
+  }
+
+  nav{
+    text-align: center;
+  }
+
+  .container{
+    background-color: rgba(240, 255, 255, 0.69);
+    border-radius: 25px;
+    width: 500px;
+    word-wrap: break-word; /*this makes the text fit in side the width of what ever its in*/
+text-align: justify;
+  }
+  .center{ 
+    text-align: center;
+  }
+
+  .MakeInline{
+    display: inline; /* the default for span */
+  }

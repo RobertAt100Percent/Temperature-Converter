@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius Converter</title>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/CSS/temperatureStyles.css">
+
+</head>
+<body>
+    <header>
+        <h1 id="H1">
+            Celsius Converter
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="TempIndex.html">Home</a>
+                </li>
+                <li>
+                    <a href="FahrenheitConverter.html">Fahrenheit</a>
+                </li>
+                <li>
+                    <a href="CelsiusConverter.html">Celsius</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End of header and nav-->
+
+    <!--small description of this page and tempturaes-->
+
+    <hr>
+    <br>
+        
+    <div class="container">
+        <div class="content">
+            <p>
+                Enter the tempturae in Fahrenheit and convert it to Celsius
+            </p>
+            <br>
+
+            <form>
+                <label for="txtFahrenheit">Celsius:</label>
+                <input type="number" id="txtCelsius" name="txtCelsius"><br><br>
+                <button type="button" onclick="convertCelsius()">Convert</button>
+                <br><br>
+                <h6 class="MakeInline">Fahrenheit: </h6>
+                <p class="MakeInline" id="demo"></p>
+                <br>
+                <br>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="../../JS/temperatureScripts.js"></script>
+</body>
+</html>

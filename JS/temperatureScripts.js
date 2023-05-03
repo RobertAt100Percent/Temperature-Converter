@@ -8,10 +8,10 @@ function convertCelsius(){
         //display to console 
     console.log(c);
 
-    //calculate 
+    //calculate - convert the celsius to fahrenheit
     c = (c * 9/5) + 32;
     
-    //display to console for consticency
+    //debug to the console
     console.log(c);
     
     //display to the user
@@ -24,7 +24,7 @@ function convertFahrenheit(){
     //display to console 
     console.log(f);
 
-    //calculate f
+    //calculate - convert the fahrenheit to celsius
     f = (f-32) * (5/9);
     
     //display to console 

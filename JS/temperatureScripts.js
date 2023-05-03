@@ -9,7 +9,7 @@ function convertCelsius(){
     console.log(c);
 
     //calculate 
-    c = (c*(5/9)+32);
+    c = (c * 9/5) + 32;
     
     //display to console for consticency
     console.log(c);
